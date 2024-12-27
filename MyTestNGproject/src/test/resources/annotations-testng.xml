@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Annotaions">
+    <test name="Annotations Test">
+        <classes>
+            <class name="executionorder.SampleTestNGUsage"></class>
+            <class name="executionorder.AnnotationsTest"></class>
+        </classes>
+    </test>
+</suite>
