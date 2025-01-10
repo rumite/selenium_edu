@@ -1,0 +1,14 @@
+data:
+  - runmode: 'y'
+    password: pass1234
+    browser: chrome
+    username: abc@gmail.com
+  - runmode: 'n'
+    password: pass1234
+    browser: mozilla
+    username: abc@gmail.com
+  - runmode: 'y'
+    password: pass1234
+    browser: edge
+    username: abc@gmail.com
+testName: LoginTest
