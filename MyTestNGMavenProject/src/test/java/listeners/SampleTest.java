@@ -5,7 +5,7 @@ import org.testng.SkipException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class SampleTestClass {
+public class SampleTest {
 
     @Test
     public void testOne() {
@@ -19,7 +19,7 @@ public class SampleTestClass {
 
     @DataProvider
     public Object[] dataProvider() {
-        return new Object[] {"A", "B"};
+        return new Object[] {"A", "TestClassB"};
     }
 
     @Test

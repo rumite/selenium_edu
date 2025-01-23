@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite B" parallel="tests">
+    <test name="Test B">
+        <classes>
+            <class name="paralleltests.suiteB.TestClassB"></class>
+        </classes>
+    </test>
+    <test name="Test BB">
+        <classes>
+            <class name="paralleltests.suiteB.TestClassBB"></class>
+        </classes>
+    </test>
+</suite>
