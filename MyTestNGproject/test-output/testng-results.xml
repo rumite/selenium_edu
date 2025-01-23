@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="16" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-10T22:06:02 GET" name="All test suites" finished-at="2025-01-10T22:06:02 GET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All test suites -->
+  <suite started-at="2025-01-10T22:06:02 GET" name="Groups Suite" finished-at="2025-01-10T22:06:02 GET" duration-ms="4">
+    <groups>
+      <group name="regression">
+        <method signature="GroupingTest.minorTest()[pri:0, instance:GroupingTest@57a3af25]" name="minorTest" class="GroupingTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2025-01-10T22:06:02 GET" name="Groups Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="4">
+      <class name="GroupingTest">
+        <test-method signature="minorTest()[pri:0, instance:GroupingTest@57a3af25]" started-at="2025-01-10T22:06:02 GET" name="minorTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minorTest -->
+      </class> <!-- GroupingTest -->
+    </test> <!-- Groups Test -->
+  </suite> <!-- Groups Suite -->
+  <suite started-at="2025-01-10T22:06:02 GET" name="TestNG Listener Suite" finished-at="2025-01-10T22:06:02 GET" duration-ms="11">
+    <groups>
+    </groups>
+    <test started-at="2025-01-10T22:06:02 GET" name="SampleTests" finished-at="2025-01-10T22:06:02 GET" duration-ms="11">
+      <class name="com.testng.listeners.SampleTestClass">
+        <test-method signature="skippedTest()[pri:0, instance:com.testng.listeners.SampleTestClass@799f10e1]" started-at="2025-01-10T22:06:02 GET" name="skippedTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException
+at com.testng.listeners.SampleTestClass.skippedTest(SampleTestClass.java:33)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skippedTest -->
+        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@799f10e1]" started-at="2025-01-10T22:06:02 GET" name="testGetData" data-provider="dataProvider" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetData -->
+        <test-method signature="testGetData(java.lang.String)[pri:0, instance:com.testng.listeners.SampleTestClass@799f10e1]" started-at="2025-01-10T22:06:02 GET" name="testGetData" data-provider="dataProvider" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetData -->
+        <test-method signature="testOne()[pri:0, instance:com.testng.listeners.SampleTestClass@799f10e1]" started-at="2025-01-10T22:06:02 GET" name="testOne" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testThree()[pri:0, instance:com.testng.listeners.SampleTestClass@799f10e1]" started-at="2025-01-10T22:06:02 GET" name="testThree" finished-at="2025-01-10T22:06:02 GET" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [7] but found [5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [7] but found [5]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at com.testng.listeners.SampleTestClass.testThree(SampleTestClass.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- com.testng.listeners.SampleTestClass -->
+    </test> <!-- SampleTests -->
+  </suite> <!-- TestNG Listener Suite -->
+  <suite started-at="2025-01-10T22:06:02 GET" name="TestNG" finished-at="2025-01-10T22:06:02 GET" duration-ms="93">
+    <groups>
+    </groups>
+    <test started-at="2025-01-10T22:06:02 GET" name="Login Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="26">
+      <class name="FacebookLoginTest">
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:FacebookLoginTest@7fc229ab]" started-at="2025-01-10T22:06:02 GET" name="loginWithValidCredentials" finished-at="2025-01-10T22:06:02 GET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+      </class> <!-- FacebookLoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2025-01-10T22:06:02 GET" name="Profile Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="1">
+      <class name="FacebookProfileTest">
+        <test-method signature="avatarIsValid()[pri:0, instance:FacebookProfileTest@3cc2931c]" started-at="2025-01-10T22:06:02 GET" name="avatarIsValid" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avatarIsValid -->
+      </class> <!-- FacebookProfileTest -->
+    </test> <!-- Profile Test -->
+    <test started-at="2025-01-10T22:06:02 GET" name="Package Test Run" finished-at="2025-01-10T22:06:02 GET" duration-ms="4">
+      <class name="com.testng.training.SampleOneTest">
+        <test-method signature="sampleOneTestMethodOne()[pri:0, instance:com.testng.training.SampleOneTest@76908cc0]" started-at="2025-01-10T22:06:02 GET" name="sampleOneTestMethodOne" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleOneTestMethodOne -->
+        <test-method signature="sampleOneTestMethodTwo()[pri:0, instance:com.testng.training.SampleOneTest@76908cc0]" started-at="2025-01-10T22:06:02 GET" name="sampleOneTestMethodTwo" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleOneTestMethodTwo -->
+      </class> <!-- com.testng.training.SampleOneTest -->
+      <class name="com.testng.training.SampleTwoTest">
+        <test-method signature="sampleTwoTestMethodOne()[pri:0, instance:com.testng.training.SampleTwoTest@35047d03]" started-at="2025-01-10T22:06:02 GET" name="sampleTwoTestMethodOne" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTwoTestMethodOne -->
+      </class> <!-- com.testng.training.SampleTwoTest -->
+    </test> <!-- Package Test Run -->
+    <test started-at="2025-01-10T22:06:02 GET" name="Annotations Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="4">
+      <class name="executionorder.AnnotationsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="beforeClass" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="beforeMethod" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="annotationsTest()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="annotationsTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annotationsTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="afterMethod" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="afterTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="afterClass" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- executionorder.AnnotationsTest -->
+      <class name="executionorder.SampleTestNGUsage">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:executionorder.SampleTestNGUsage@243c4f91]" started-at="2025-01-10T22:06:02 GET" name="beforeTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- executionorder.SampleTestNGUsage -->
+    </test> <!-- Annotations Test -->
+    <test started-at="2025-01-10T22:06:02 GET" name="Params Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="3">
+      <class name="executionorder.AnnotationsTest">
+        <test-method is-config="true" signature="afterSute()[pri:0, instance:executionorder.AnnotationsTest@192d43ce]" started-at="2025-01-10T22:06:02 GET" name="afterSute" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSute -->
+      </class> <!-- executionorder.AnnotationsTest -->
+      <class name="executionorder.SampleTestNGUsage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:executionorder.SampleTestNGUsage@243c4f91]" started-at="2025-01-10T22:06:02 GET" name="beforeSuite" finished-at="2025-01-10T22:06:02 GET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- executionorder.SampleTestNGUsage -->
+      <class name="ParametrizedTest">
+        <test-method signature="credentialsTest(java.lang.String,java.lang.String)[pri:0, instance:ParametrizedTest@4fb0f2b9]" started-at="2025-01-10T22:06:02 GET" name="credentialsTest" finished-at="2025-01-10T22:06:02 GET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rumite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QAwsDrf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credentialsTest -->
+      </class> <!-- ParametrizedTest -->
+    </test> <!-- Params Test -->
+  </suite> <!-- TestNG -->
+  <suite started-at="2025-01-10T22:06:02 GET" name="Data Provider Suite" finished-at="2025-01-10T22:06:02 GET" duration-ms="11">
+    <groups>
+    </groups>
+    <test started-at="2025-01-10T22:06:02 GET" name="Unit Test" finished-at="2025-01-10T22:06:02 GET" duration-ms="5">
+      <class name="dataprovider.DataProviderParameterExample">
+        <test-method signature="commonScenarios(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@7ec7ffd3]" started-at="2025-01-10T22:06:02 GET" name="commonScenarios" data-provider="scenarioData" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common Scenario Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonScenarios -->
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@7ec7ffd3]" started-at="2025-01-10T22:06:02 GET" name="scenario1" data-provider="scenarioData" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1 Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:dataprovider.DataProviderParameterExample@7ec7ffd3]" started-at="2025-01-10T22:06:02 GET" name="scenario2" data-provider="scenarioData" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario2 Data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+      </class> <!-- dataprovider.DataProviderParameterExample -->
+    </test> <!-- Unit Test -->
+    <test started-at="2025-01-10T22:06:02 GET" name="IntegrationLevel" finished-at="2025-01-10T22:06:02 GET" duration-ms="2">
+      <class name="dataprovider.DataProviderIntegrationExample">
+        <test-method signature="integrationTest(java.lang.String)[pri:0, instance:dataprovider.DataProviderIntegrationExample@399f45b1]" started-at="2025-01-10T22:06:02 GET" name="integrationTest" data-provider="TestType" finished-at="2025-01-10T22:06:02 GET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integration test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+      </class> <!-- dataprovider.DataProviderIntegrationExample -->
+    </test> <!-- IntegrationLevel -->
+    <test started-at="2025-01-10T22:06:02 GET" name="AcceptanceLevel" finished-at="2025-01-10T22:06:02 GET" duration-ms="2">
+      <class name="dataprovider.DataProviderAcceptanceExample">
+        <test-method signature="acceptanceTest(java.lang.String)[pri:0, instance:dataprovider.DataProviderAcceptanceExample@49ec71f8]" started-at="2025-01-10T22:06:02 GET" name="acceptanceTest" data-provider="TestType" finished-at="2025-01-10T22:06:02 GET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptanceTest -->
+      </class> <!-- dataprovider.DataProviderAcceptanceExample -->
+    </test> <!-- AcceptanceLevel -->
+  </suite> <!-- Data Provider Suite -->
+</testng-results>

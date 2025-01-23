@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="All test suites">
+    <suite-files>
+        <suite-file path="testng.xml"></suite-file>
+        <suite-file path="dataprovider-testng.xml"></suite-file>
+        <suite-file path="groups-testng.xml"></suite-file>
+        <suite-file path="listeners-testng.xml"></suite-file>
+    </suite-files>
+</suite>
