@@ -1,3 +1,7 @@
+[submodule "TestNGPilotProject"]
+    path = TestNGPilotProject
+    url = https://github.com/rumite/TestNGPilotProject
+
 [submodule "SeleniumDemoProject"]
-	path = SeleniumDemoProject
-	url = https://github.com/rumite/SeleniumDemoProject.git
+    path = SeleniumDemoProject
+    url = https://github.com/rumite/SeleniumDemoProject
